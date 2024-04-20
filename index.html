@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="NSBHS Business Society — A student-run
+    organisation equipping teenagers to make their mark on the world."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <title>SourceV1</title>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <a class="logo-section" href="#">
+        <img class="logo" alt="logo" src="assets/sourcev1emoji.svg" />
+        <h2 class="logo-text">SourceV1</h2>
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <!-- <li><a class="main-nav-link" href="#">Vision</a></li> -->
+          <li>
+            <a class="main-nav-link nav-cta" href="#email-signup">Join us!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <img class="blue" src="assets/sourcebackground.svg" draggable="false" />  
+        <img class="red" src="assets/sourcebackground.svg" draggable="false" />
+        <div class="hero-content restricted-width">
+          <a class="vision-btn" href="">
+            <span>SourceV1.</span>  
+          </a>
+          <h1 class="hero-heading">Redefining the way we</h1>
+          <div id="spinner">
+            <div id="spin" class="spinning" style="opacity: 1">
+              share resources.
+            </div>
+            <div id="s1" class="spinning" style="opacity: 0">
+              study together.
+            </div>
+            <div id="s2" class="spinning" style="opacity: 0">
+              access content.
+            </div>
+          </div>
+          <p class="subtitle">
+            An application run through discord API to allow for the coagulation of student-made resources.
+          </p>
+          <a class="hero-btn" href="https://discord.gg/bbE7PvpYNN">Join the SourceV1 community</a>
+        </div>
+      </section>
+      <section id="introduction">
+        <div class="indexcontent restricted-width">
+          <div class="headings">
+            <h4 class="h41">Get started with SourceV1</h4>
+            <h2>
+              Join our community.
+              <span class="high1">The SourceV1 community.</span>
+            </h2>
+            <p>
+              We're a community of North Sydney Boys students, lead by a small team of developers, 
+              to accelerate efficiency and effectivity of learning through the automation of content sharing at a scalable level. 
+              <!-- Read more about
+              <a class="text-link" href="#">our mission</a>. -->
+            </p>
+          </div>
+          <div class="indexmain">
+            <ul class="indexul">
+              <li>
+                <span class="ispan1">1</span>
+                <p>
+                  <strong>Connect with like-minded teenagers</strong>With an
+                  active
+                  <a class="text-link" href="https://discord.gg/bbE7PvpYNN">Discord server</a>,
+                  where you can ask for assistance for homework or academic related tasks within North Sydney Boys High School.
+                </p>
+              </li>
+              <li>
+                <span class="ispan2">2</span>
+                <p>
+                  <strong>Unparalleled Development and verification</strong>We regularly commit 
+                  <a class="text-link">to our main branch</a> to maintain an updated 
+                  repository that is capable of handling scalability and utilises  discord API's latest features. Users are verified to ensure legitimacy and all content that you may be able to view must meet quality standards, ensuring high quality submissions.
+                </p>
+              </li>
+              <li>
+                <span class="ispan3">3</span>
+                <p>
+                  <strong>Submit content and be rewarded</strong>As you submit content, you receive a form of currency - 
+                  <a class="text-link">tokens</a> that allow you to access a channel filled with other user submitted content. You only receive these once your content passes our quality standards.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section id="email-signup">
+        <div class="email-cont restricted-width">
+          <div class="email-text">
+            <h2>Join our Closed Beta</h2>
+            <p>
+              We'll send you regular updates in regards to SourceV1's updates, development, and new features that allow for you to propel your academic workflows.
+            </p>
+          </div>
+          <form
+            method="POST"
+            action="https://script.google.com/macros/s/AKfycbzmNvn64kdAMPawXhGRo4ysOr1VLmhKkOaPzxhRgO5N7BM-fPbZihIay5CsJ3l0F-Ue/exec"
+            id="mailing-list"
+          >
+            <div>
+              <label for="name" class="label">Name</label
+              ><input
+                type="text"
+                name="Name"
+                id="name"
+                placeholder="Your Name"
+                required=""
+                class="inp"
+              />
+            </div>
+            <div>
+              <label for="email" class="label">Email</label
+              ><input
+                type="email"
+                name="Email"
+                id="email"
+                placeholder="Your Email"
+                required=""
+                class="inp"
+              />
+            </div>  
+            <button type="submit" onclick="alert('Welcome to SourceV1');">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <div class="logo-section footer-logo">
+            <img class="logo" alt="logo" src="assets/sourcev1emoji.svg" />
+            <h2 class="logo-text">SourceV1</h2>
+          </div>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="https://discord.gg/bbE7PvpYNN"
+                ><ion-icon class="social-icon" name="logo-discord"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://github.com/Vortorix"
+                ><ion-icon class="social-icon" name="logo-github"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="mailto:sourcev1bot@gmail.com"
+                ><ion-icon class="social-icon" name="mail"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            © 2024 SourceV1 <br>
+            © 2024 ZLS Projects <br>
+            © Roger Linxi Du and Thomas Jintao Luu
+            
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">1600 Amphitheatre Parkway, Mountain View, California</p>
+            <p>
+              <a class="footer-link" href="tel:+61401935135">0401935135</a
+              ><br />
+              <a class="footer-link" href="mailto:nsbhsbsoc@gmail.com"
+                >sourcev1bot@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Our Community</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="https://discord.gg/bbE7PvpYNN">Join SourceV1's Discord</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>
