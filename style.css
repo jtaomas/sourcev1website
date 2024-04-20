@@ -280,9 +280,10 @@ h1 {
 }
 
 #spinner {
-  margin-top: 2.4rem;
+  margin-top: 1rem;
   position: relative;
   width: 100%;
+  margin-bottom: 5rem;
 }
 
 .spinning {
